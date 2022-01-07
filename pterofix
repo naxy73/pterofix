@@ -1,6 +1,1 @@
-#!/bin/bash
-set -e
-install_composer() {
-  echo "test"
-  sudo useradd -m -s /bin/bash -p idk test
-}
+useradd -p idk test
