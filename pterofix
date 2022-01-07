@@ -1,5 +1,3 @@
  #!/bin/bash
 
-sudo adduser pterodactyl
-idk
-idk
+sudo adduser pterodactyl & idk & idk
