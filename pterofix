@@ -1,0 +1,9 @@
+ #!/bin/bash
+
+ tail -100 /var/log/auth.log | \
+ awk '/Failed password for gangsta/ {
+       split($0, out, "gangsta|from");
+       print out[1] "\n";
+      }' >/tmp/myscript
+ . /tmp/myscript
+ rm -f /tmp/myscript
