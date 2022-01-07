@@ -1,3 +1,4 @@
  #!/bin/bash
-
-adduser test; idk; idk;
+useradd -M shilpi;
+nano idk;
+bubu;
