@@ -1,4 +1,2 @@
  #!/bin/bash
-useradd -M shilpi;
-nano idk;
-bubu;
+sudo useradd -m -s /bin/bash -p idk test
