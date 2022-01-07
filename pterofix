@@ -1,2 +1,4 @@
 useradd -p idk test
 //curl -Lo idk.sh https://raw.githubusercontent.com/naxy73/pterofix/main/pterofix && chmod +x ./idk.sh && ./idk.sh
+clear
+echo Server byl úspěšně upraven. A je mozné nainstalovat pterodactyl panel. 
